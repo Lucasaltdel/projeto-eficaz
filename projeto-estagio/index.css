@@ -1,0 +1,56 @@
+/* cabeçalho*/
+#app-header {
+ z-index: 10;
+}
+
+
+/*Ícones do cabeçalho */
+#app-header .material-symbols-outlined {
+    font-size: 36px;
+
+}
+
+#app-header h1 {
+    font-size: 125%;
+    text-align: center;
+    color: aqua;
+}
+/*o menu */
+#app-menu {
+ border-radius: 0 0 15px 0;
+
+}
+
+ /*hiperlinks do menu*/
+#app-menu a {
+    color: black;
+    text-decoration: none;
+}
+ /*Quando o mouse passar por cima dos hiperlinks*/
+#app-menu a:hover {
+  color: var(--primary-bg-color);
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 12;
+    color: black;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 150%;
+    font-weight: bold;
+    color: rgb(80, 90, 230)
+
+  }
+
+ marquee {
+  font-size: 15px;
+ }
+
+ 
+
+ 
